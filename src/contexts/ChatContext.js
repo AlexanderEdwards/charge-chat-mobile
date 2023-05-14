@@ -1,0 +1,10 @@
+// src/contexts/ChatContext.js
+import React from 'react';
+
+export const ChatContext = React.createContext({
+  messages: 
+  [
+    
+  ],
+  addMessage: () => {},
+});
